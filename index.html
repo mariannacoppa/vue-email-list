@@ -18,9 +18,9 @@
                         <h1>Ottieni 10 indirizzi email</h1>
                         <button class="btn btn-sm btn-primary" @click="getEmail()">Genera ora</button>
                         <div>{{ email }}</div>
-                        <!-- <ul class="list-unstyled">
-                            <li>{{ email }}</li>
-                        </ul> -->
+                        <ul class="list-unstyled" v-for="(mail, index) in email">
+                            <li>{{ mail }}</li>
+                        </ul>
                     </div>
                 </div>
             </div>
