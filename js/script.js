@@ -7,7 +7,7 @@ createApp({
         }
     },
     methods: {
-        generateTenEmails() {
+        getTenEmails() {
 
         }
     }
